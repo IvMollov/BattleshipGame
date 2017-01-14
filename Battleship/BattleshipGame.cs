@@ -69,25 +69,22 @@ namespace Battleship
             {
                 for (int col = 0; col < battleshipGrid.GetLength(1); col++)
                 {
-                    battleshipGrid[row, col] = "~";
-                    if(col == 3)
-                    {
-                        battleshipGrid[ships.Next(0, 5), ships.Next(0, 5)] = "4";
-                    }                                    
+                    battleshipGrid[row, col] = "~";                                  
                 }
             }
-
+            for (int i = 0; i < 3; i++)
+            {
+                 battleshipGrid[ships.Next(0, 5), ships.Next(0, 5)] = "4";
+            }
             for (int row = 0; row < battleshipGrid.GetLength(0); row++)
             {
                 for (int col = 0; col < battleshipGrid.GetLength(1); col++)
                 {
-                    Console.Write(battleshipGrid[row, col]);
                     if (battleshipGrid[row, col] == "4")
                     {
                         shipCount++;
                     }                    
                 }
-                Console.WriteLine();
             }
 
             while (true)
@@ -188,6 +185,7 @@ namespace Battleship
             {
                 Console.WriteLine($"Shot [{i + 1}]: {log[i]}");
             }
+            log.Clear();
         }
     }
 }

@@ -4,3 +4,9 @@ D:\Projects\Battleship\Battleship\bin\Debug\Battleship.pdb
 D:\Projects\Battleship\Battleship\obj\Debug\Battleship.csprojResolveAssemblyReference.cache
 D:\Projects\Battleship\Battleship\obj\Debug\Battleship.exe
 D:\Projects\Battleship\Battleship\obj\Debug\Battleship.pdb
+D:\Projects\BattleshipGame\BattleshipGame\Battleship\bin\Debug\Battleship.exe.config
+D:\Projects\BattleshipGame\BattleshipGame\Battleship\obj\Debug\Battleship.exe
+D:\Projects\BattleshipGame\BattleshipGame\Battleship\obj\Debug\Battleship.pdb
+D:\Projects\BattleshipGame\BattleshipGame\Battleship\bin\Debug\Battleship.exe
+D:\Projects\BattleshipGame\BattleshipGame\Battleship\bin\Debug\Battleship.pdb
+D:\Projects\BattleshipGame\BattleshipGame\Battleship\obj\Debug\Battleship.csprojResolveAssemblyReference.cache
